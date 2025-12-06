@@ -1,0 +1,50 @@
+:root {
+  --zoom: 1;
+}
+
+#selector {
+  r: calc(var(--zoom) * 100px);
+  fill: red;
+}
+
+#map_nations {
+  --baseFontSize: 500px;
+  --baseStrokeWidth: 10px;
+  
+  font-size: clamp(10px, var(--baseFontSize) * var(--zoom), 500px);
+  stroke-width: clamp(0.2px, var(--baseStrokeWidth) * var(--zoom), 10px);
+  stroke: #222222;
+  fill: white;
+  text-anchor: middle;
+}
+
+#map_lines path{
+  --baseStroke: 25px;
+  
+  fill: none;
+  stroke: white;
+  stroke-width: calc(var(--baseStroke) * var(--zoom));
+}
+
+#map_lines path[data-type="coastline"]{
+  stroke: red;
+  opacity: 0;
+}
+
+#map_lines path[data-type="disputed"]{
+  --baseDash: 150px;
+  
+  stroke-dasharray: calc(var(--baseDash) * var(--zoom)) calc(var(--baseDash) * var(--zoom));
+}
+
+#map_lines path[data-type="limit"]{
+  stroke: #c9c9c9;
+}
+
+#map_lines > path[marked="true"]{
+  --baseStroke: 50px;
+  
+  stroke: white;
+  opacity: 1;
+  stroke-width: calc(var(--baseStroke) * var(--zoom));
+}

@@ -321,8 +321,8 @@ async function plotLines(){
   });
 }
 
-async function plotMaps(pathToJson, world){
-  const response = await fetch(pathToJson);
+async function plotMaps(world){
+  const response = await fetch("data/maps.json");
   const maps = await response.json();
   //console.log(maps);
   Object.keys(maps).forEach(lvl => {
@@ -333,8 +333,8 @@ async function plotMaps(pathToJson, world){
   });
 }
 
-async function plotNations(pathToJson){
-  const response = await fetch(pathToJson);
+async function plotNations(){
+  const response = await fetch("data/nations.json");
   const nations = await response.json();
   //console.log(nations);
   nations.forEach(nation => {

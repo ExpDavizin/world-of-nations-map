@@ -154,8 +154,8 @@ window.addEventListener("resize", () => {
 
 window.addEventListener("load", () => {
   plotLines();
-  plotMaps("maps.json", world);
-  plotNations("nations.json");
+  plotMaps(world);
+  plotNations();
   
   view.startVals(world);
   view.updateVB();

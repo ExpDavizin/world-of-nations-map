@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- Created with Grafika (https://www.grafika.cc/) -->
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="600" viewBox="0 0 115.15 139" preserveAspectRatio="xMidYMid meet">
-	<g transform="matrix(1, 0, 0, 1, 57.5751953125, 149.37109375)">
-		<path d="M-0,-149.37 C-31.8,-149.37 -57.58,-123.59 -57.58,-91.8 C-57.58,-75.9 -51.13,-61.5 -40.71,-51.09 L-0,-10.38 L40.71,-51.09 C51.13,-61.5 57.57,-75.9 57.57,-91.8 C57.57,-123.59 31.8,-149.37 -0,-149.37 Z" style="fill:#F5060B;" />
-		<path d="M28.97,-91.8 C28.97,-75.8 16,-62.83 -0,-62.83 C-16,-62.83 -28.97,-75.8 -28.97,-91.8 C-28.97,-107.8 -16,-120.76 -0,-120.76 C16,-120.76 28.97,-107.8 28.97,-91.8 Z" style="fill:#800E13;" />
-	</g>
-</svg>
